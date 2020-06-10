@@ -30,6 +30,6 @@ numberInput.on('keyup', function (e) {
     });
   }
   $('#h4').append(
-    '<a href="https://github.com/gauravsingh9356" target="_blank">GitHub</a>'
+    '<a  class="btn btn-dark" href="https://github.com/gauravsingh9356" target="_blank">GitHub</a>'
   );
 });
