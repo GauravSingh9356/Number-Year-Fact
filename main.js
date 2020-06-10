@@ -20,7 +20,7 @@ numberInput.on('keyup', function (e) {
     $('#check1').prop('checked', false);
     $.ajax({
       method: 'GET',
-      url: 'https://numbersapi.com/' + e.target.value + '/year',
+      url: 'http://numbersapi.com/' + e.target.value + '/year',
       dataType: 'text',
     }).done(function (data) {
       if (e.target.value != '') {
